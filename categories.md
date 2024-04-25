@@ -1,4 +1,4 @@
 ---
-title: "首页"
+title: "分类"
 layout: "simple"
 ---
