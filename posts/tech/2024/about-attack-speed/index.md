@@ -1,11 +1,9 @@
 ---
 title: "有关攻速"
 date: 2024-04-22T19:16:31+08:00
-categories: ["game"]
-series: ["Game Development"]
-tags: ["游戏", "开发"]
+categories: []
+tags: ["game-develop"]
 summary: "游戏里的「攻击速度」到底是个什么概念？"
-layout: "simple"
 ---
 
 {{< katex >}}

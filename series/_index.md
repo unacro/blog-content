@@ -1,5 +1,5 @@
 ---
-title: 所有分类
+title: 所有系列
 showDate: false
 showDateUpdated: false
 showWordCount: false
