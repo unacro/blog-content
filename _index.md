@@ -1,6 +1,6 @@
 ---
-title: "Homepage"
-description: "Atypist's blog"
+title: Blog Homepage
+description: Atypist's Blog
 ---
 
 {{< typeit tag=p speed=180 lifeLike=true breakLines=false loop=false >}}
