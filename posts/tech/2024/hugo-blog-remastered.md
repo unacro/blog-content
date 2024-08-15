@@ -1,7 +1,7 @@
 ---
 title: 第一千零一次重置博客
-date: 2024-08-08
-lastmod: 2024-08-11
+date: 2024-08-08T00:00:00+08:00
+lastmod: 2024-08-11T00:00:00+08:00
 categories:
   - blogging
 tags:

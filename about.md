@@ -1,9 +1,6 @@
 ---
 title: 关于
-showDate: false
-showDateUpdated: false
-showWordCount: false
-showReadingTime: false
+layout: simple
 ---
 
 ---
@@ -27,6 +24,8 @@ showReadingTime: false
 ## 关于我
 
 Smart enough to know better, stupid enough to do it anyway.
+
+## 时间线
 
 {{< timeline >}}
 

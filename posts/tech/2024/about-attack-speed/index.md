@@ -1,9 +1,10 @@
 ---
-title: "有关攻速"
+title: 浅谈对各种游戏中「攻速」的朴素认知
 date: 2024-04-22T19:16:31+08:00
-categories: []
-tags: ["game-develop"]
-summary: "游戏里的「攻击速度」到底是个什么概念？"
+categories: 
+tags:
+  - game-develop
+summary: 游戏里的「攻击速度」到底是个什么概念？
 ---
 
 {{< katex >}}

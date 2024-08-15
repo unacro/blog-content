@@ -1,7 +1,7 @@
 ---
 title: Machinations 超简略测评
-date: 2024-04-22
-categories: ["develop-toolkit"]
+date: 2024-04-22T00:00:00+08:00
+categories: ["develop-tools"]
 tags: ["game-develop"]
 summary: 乘兴而来，败兴而归。
 ---
