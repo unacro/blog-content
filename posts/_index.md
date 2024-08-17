@@ -8,4 +8,4 @@ title: 所有文章
 默认显示摘要
 {{< /alert >}}
 
-{{< list cardView=false limit=6 >}}
+{{< list cardView=false limit=5 >}}
