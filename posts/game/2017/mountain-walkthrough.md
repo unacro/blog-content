@@ -56,7 +56,7 @@ _弹奏旋律 `M,KJ` 或者直接按下快捷键 <kbd>.</kbd> 立刻产生想法
 ### 设置界面
 
 左上：
-- THOUGHTS（心思）：（<ruby>山<rp>(</rp><rt>你</rt><rp>)</rp> </ruby>的）想法，心声，内心 OS
+- THOUGHTS（心思）：（<ruby>山<rp>(</rp><rt>你</rt><rp>)</rp></ruby>的）想法，心声，内心 OS
 - SOUND（声音）：音效
 - AUTO CAM（自动相机）：自动移动镜头
 
