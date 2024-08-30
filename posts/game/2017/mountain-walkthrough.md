@@ -1,9 +1,12 @@
 ---
-title: 「山」简要攻略
+title: 《山》简要攻略
 date: 2017-07-02T00:00:00+08:00
 lastmod: 2024-08-12T00:00:00+08:00
-categories: ["idle-game"]
-tags: ["game-tips", "game-achievements"]
+categories:
+  - idle-game
+tags:
+  - game-tips
+  - game-achievements
 featureimage: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/313340/header.jpg
 ---
 
