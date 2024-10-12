@@ -5,6 +5,18 @@ layout: simple
 
 ---
 
+## 为什么要写博客
+
+<figure>
+  <blockquote>
+	不要将技术博客的写作视为打造“个人品牌”，它肯定对此有所帮助。<br>
+	但是，写作最重要的功能是，它是提升个人知识和批判性思维的一个工具。
+  <figcaption>——《<cite><a href="https://jack-vanlightly.com/blog/2022/1/25/write-for-others-but-mostly-for-yourself" target="_blank" rel="noopener noreferrer">Write for others but mostly for yourself</a></cite>》</figcaption>
+  </blockquote>
+</figure>
+
+**只要写下来，文字就会产生魔力。**
+
 ## 关于本站
 
 - 由 [Hugo](https://gohugo.io/) & [Congo](https://github.com/jpanther/congo) 强力驱动
