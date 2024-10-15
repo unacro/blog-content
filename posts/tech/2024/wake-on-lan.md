@@ -3,8 +3,10 @@ title: 一文搞定 WoL 网络唤醒（电脑远程开机）
 description: ""
 date: 2024-10-14T19:27:12+08:00
 categories:
-  - 硬件
+  - hardware
 tags: 
+  - iot
+  - smart-home
 series: 
 summary: WoL 网络唤醒全攻略
 ---
@@ -55,7 +57,7 @@ summary: WoL 网络唤醒全攻略
 1. 组合键 <kbd>Win</kbd> + <kbd>X</kbd> 打开快捷菜单，按 <kbd>M</kbd> 进入 _设备管理器_
 2. 在 _网络适配器_ 一栏下找到网卡（名称形如 `Realtek PCle GbE Family Controller`）
 3. 双击或右键打开 _属性_，如果安装好了合适的驱动，这里会有多达 7 个选项卡
-4. 切换到 _高级_ 选项卡，将属性 `魔术封包唤醒` / `网络唤醒` 的值设置为 `开启`
+4. 切换到 _高级_ 选项卡，将属性 `关机 网络唤醒` / `魔术封包唤醒` 的值设置为 `开启`（我的情况还有一个显示不全的全文为 `Wake on magic packet when system is in the S0ix power state` 的英文选项 ~~通过 <kbd>Win</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> 开启讲述人读出来的~~）
 5. 切换到 _电源管理_ 选项卡，勾选 `允许此设备唤醒计算机`\
    （这里的 _此设备_ 指的是网卡）
 6. 至于下面的 `只允许幻数据包唤醒计算机`，是否启用看具体情况\
@@ -131,6 +133,15 @@ summary: WoL 网络唤醒全攻略
 
     快速启动
         当前系统策略禁用此动作。
+```
+
+另外：
+```PowerShell
+# 查看能够唤醒本机的外设
+$ powercfg -devicequery wake_armed
+
+# 查看唤醒历史记录
+$ powercfg -lastwake
 ```
 
 ### 最终成果
@@ -224,7 +235,7 @@ packet-beta
 
 > 参考阅读：《[Does it matter what UDP port a WOL signal is sent to?](https://superuser.com/questions/295325/does-it-matter-what-udp-port-a-wol-signal-is-sent-to)》
 
-### 最佳实践
+## 最佳实践
 
 唤醒魔包的本质是一种广播帧，**无法被路由器转发**：
 - 发送到 `255.255.255.255` 同一局域网下（本地广播）
@@ -257,3 +268,12 @@ $ wakeonlan 11:22:33:44:55:66
 我也可以通过手机 [发送通知](https://docs.ntfy.sh/subscribe/cli/#run-command-for-every-message)，让服务器（通过命令 + WoL）再次启动关机的设备。
 
 爽到。
+
+### 未来计划
+
+考虑接入智能家居，实现人到家自动开机。\
+虽然摁一下开机键也不费什么劲，但能够自动化就是很炫酷。\
+~~而且非要滑坡的话，难道开关灯很费劲吗？~~
+
+> 至于如何判断是「回家」，人体 or 门窗传感器都不能判断到底进还是出。\
+> 目前想到的是判断手机（这你总会随身携带吧）是否重新连上 Wi-Fi：可以路由器读 MAC、也可以手机读 SSID（这是用了数年的方案，通过 [Tasker](https://tasker.joaoapps.com/) 实现）。
