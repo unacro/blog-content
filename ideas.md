@@ -60,7 +60,7 @@ layout: simple
 
 - [ ] Rust 开发麻将牌效计算工具（和牌判定 / 向听数计算等）。\
       （算法参考：[mahjong-helper](https://github.com/EndlessCheng/mahjong-helper) / [Majsoul-Helper](https://github.com/Fr0stbyteR/Majsoul-Helper) / [mahjong_AI](https://github.com/EricDDK/mahjong_AI)。）
-- [ ] [Godot](https://godotengine.org/) 开发麻将（日麻 / 川麻）游戏。
+- [ ] [Godot](https://godotengine.org/) 开发麻将（日麻 / 川麻）游戏。（实现参考 [Laya 引擎的联网麻将](https://github.com/liumengniu/majiang)。）
 - [ ] 魔方解答工具，呈现效果参考 [魔方栈](https://cuber.heheda.top/)（[源码](https://gitee.com/huazhechen/cuber)）。\
       （算法参考 [Online Rubik's Cube Solver](https://rubiks-cube-solver.com/)。）
 - [ ] **纯前端** 游戏王卡查，利用浏览器本地缓存卡牌数据（<abbr title="cards database，本质上是一个 SQLite 数据库"><code>.cdb</code></abbr>）实现。\
