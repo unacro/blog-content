@@ -26,9 +26,9 @@ summary: "TypeScript + ink 开发文字游戏（个人）最佳实践"
 
 > 说是第三方库，其实早在 [inkjs v1.0.2](https://www.npmjs.com/package/inkjs/v/1.0.2) 就[被官方招安](https://github.com/inkle/inky/blob/e1d812c5feca60edfc3b2a9355bd3b4636f80d7e/app/package.json)（Inky 的导出到 Web）了。
 
-吃完<dfn title="2024 年 9 月底 10 月初">最近</dfn> Godot 社区 _觉醒_ 风波的瓜[^godot-woke]，顺便回顾游戏引擎的时候突然又想起这玩意。
+吃完<dfn title="2024 年 9 月底 10 月初">最近</dfn> Godot 社区 _觉醒_ 风波的瓜[^wokot]，顺便回顾游戏引擎的时候突然又想起这玩意。
 
-[^godot-woke]: 可参考：《[论狗头保命的重要性：觉醒事件始末](https://www.bilibili.com/audio/au4569476)》，一个视角。我不站队。
+[^wokot]: 可参考：《[论狗头保命的重要性：觉醒事件始末](https://www.bilibili.com/audio/au4569476)》，一个视角。[事主](https://x.com/godotengine/status/1839656658932306395)。我不站队。
 
 怎么说。整吗？整吧。
 
